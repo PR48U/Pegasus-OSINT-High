@@ -1,0 +1,36 @@
+{
+  "name": "pegasus-osint-high",
+  "version": "1.0.0",
+  "description": "Advanced OSINT Telegram bot for intelligence gathering",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Letda Kes dr. Muhammad Sobri Maulana, S.Kom, CEH, OSCP, OSCE",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "telegraf": "^4.15.3",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "mongoose": "^8.0.3",
+    "puppeteer": "^21.6.1",
+    "axios": "^1.6.2",
+    "moment": "^2.29.4",
+    "winston": "^3.11.0",
+    "proxy-chain": "^2.3.0",
+    "javascript-obfuscator": "^4.1.0",
+    "node-geocoder": "^4.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sobri3195/pegasus-osint-high.git"
+  }
+} 
